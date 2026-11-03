@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page - InfinityCarrot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER: site logo and primary navigation -->
+  <header class="site-header">
+
+    <!-- Logo: sits at the far left, with space before the nav links -->
+    <a class="logo" href="index.html">
+      <img src="img/Project_Logo.png" alt="Brand logo">
+    </a>
+
+    <!-- NAV: main site links, search and sign in -->
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="products-menu">
+          <details>
+            <summary class="products-trigger">Products</summary>
+            <ul class="products-dropdown">
+              <li><a href="crochet.html">Crochet Pieces</a></li>
+              <li><a href="artmaterials.html">Art Materials</a></li>
+              <li><a href="products.html">See All</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <ul class="nav-actions">
+        <li><a href="search.html" aria-label="Search">&#128269;</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN: primary page content -->
+  <main>
+
+    <!-- HERO SECTION: banner image with brand name and tagline -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>InfinityCarrot</h1>
+        <p>Create without limits!</p>
+      </div>
+    </section>
+
+    <!-- CATEGORIES SECTION: Crochet Pieces and Art Materials -->
+    <section class="categories">
+      <h2 class="visually-hidden">Shop by category</h2>
+
+      <!-- Category card: Crochet Pieces -->
+      <article class="category-card">
+        <img src="img/Crochet.jpg" alt="Handmade crochet pieces">
+        <h2>Crochet Pieces</h2>
+        <p class="meta">Handmade with care</p>
+        <br>
+        <div class="more">
+          <a class="button" href="products.html">More</a>
+        </div>
+      </article>
+
+      <!-- Category card: Art Materials -->
+      <article class="category-card">
+        <img src="img/Arts.jpg" alt="Assorted art materials">
+        <h2>Art Materials</h2>
+        <p class="meta">Paints, brushes and more</p>
+        <br>
+        <div class="more">
+          <a class="button" href="products.html">More</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- CALL TO ACTION SECTION: link to the full product list -->
+    <section class="see-all">
+      <a class="button" href="products.html">See All Products</a>
+    </section>
+
+  </main>
+
+</body>
+</html>
